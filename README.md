@@ -22,4 +22,7 @@ Integrácia s robotom NICO - TODO
   
 Použité knižnice:  
 PyTorch, torch, torchvision, scikit-learn, matplotlib, seaborn, pandas, numpy, tqdm  
+
+Použité prostredie:
+Google Colab
   
