@@ -1,0 +1,46 @@
+resnet50_binary_stratified_classweights_4
+
+Test Loss: 0.4797 - Test Acc: 0.7877
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.79      0.86      3000
+           1       0.38      0.77      0.51       500
+
+    accuracy                           0.79      3500
+   macro avg       0.67      0.78      0.69      3500
+weighted avg       0.87      0.79      0.81      3500
+
+Confusion matrix:
+ [[2373  627]
+ [ 116  384]]
+
+Epoch 1/10 - Train Loss: 0.5227 - Train Acc: 0.8717
+Epoch 1/10 - Val Loss: 0.4012 - Val Acc: 0.8782
+
+Epoch 2/10 - Train Loss: 0.3938 - Train Acc: 0.8603
+Epoch 2/10 - Val Loss: 0.3752 - Val Acc: 0.8417
+
+Epoch 3/10 - Train Loss: 0.3648 - Train Acc: 0.8765
+Epoch 3/10 - Val Loss: 0.3609 - Val Acc: 0.9242
+
+Epoch 4/10 - Train Loss: 0.3322 - Train Acc: 0.8949
+Epoch 4/10 - Val Loss: 0.3440 - Val Acc: 0.8745
+
+Epoch 5/10 - Train Loss: 0.3172 - Train Acc: 0.8882
+Epoch 5/10 - Val Loss: 0.3350 - Val Acc: 0.8961
+
+Epoch 6/10 - Train Loss: 0.3191 - Train Acc: 0.8913
+Epoch 6/10 - Val Loss: 0.3342 - Val Acc: 0.8692
+
+Epoch 7/10 - Train Loss: 0.3092 - Train Acc: 0.8934
+Epoch 7/10 - Val Loss: 0.3053 - Val Acc: 0.8900
+
+Epoch 8/10 - Train Loss: 0.2917 - Train Acc: 0.9012
+Epoch 8/10 - Val Loss: 0.3044 - Val Acc: 0.9069
+
+Epoch 9/10 - Train Loss: 0.2721 - Train Acc: 0.9118
+Epoch 9/10 - Val Loss: 0.3382 - Val Acc: 0.8497
+
+Epoch 10/10 - Train Loss: 0.2861 - Train Acc: 0.9102
+Epoch 10/10 - Val Loss: 0.3086 - Val Acc: 0.8924

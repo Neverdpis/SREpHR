@@ -1,0 +1,26 @@
+0 Neutral = 75 374
+1 Happy = 134 915
+2 Sad = 25 959
+3 Surprise = 14 590
+4 Fear = 6 878
+5 Disgust = 4 303
+6 Anger = 25 382
+
+Total = 287 401
+
+Ensambling in order:
+
+1 vs rest(0,1,2,3,4,5,6) | 134 915 vs 152 486
+
+0 vs rest(2,3,4,5,6) | 75 374 vs 77 112
+
+2 vs rest(3,4,5,6) | 25 959 vs 51 153
+
+6 vs rest(3,4,5) | 25 382 vs 25 771 
+
+3 vs rest(4,5) | 14 590 vs 11 181
+
+4 vs rest(5) | 6878 vs 4 303
+
+
+
